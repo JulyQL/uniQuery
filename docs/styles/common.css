@@ -1,0 +1,63 @@
+#examples {
+    width: 280px;
+    height: 600px;
+    background-image: url("../images/iPhone13.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+#examples iframe {
+    width: 260px;
+    height: 532px;
+    margin-left: 10px;
+    margin-top: 46px;
+    border: none;
+    border-radius: 5px 5px 36px 36px;
+}
+
+header {
+    line-height: 50px;
+    box-shadow: 0 0 6px 3px rgb(158 158 158 / 32%);
+}
+
+header>h2 {
+    display: inline-block;
+    background-image: url("../logo.png");
+    background-size: auto 90%;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 60px;
+}
+
+header>nav {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+header>nav>span,
+header>nav>a {
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+    color: black;
+    cursor: pointer;
+}
+
+header>nav>span:hover,
+header>nav>a:hover {
+    font-weight: 800;
+}
+
+header>nav>a::after {
+    content: " ";
+    display: inline-block;
+    background-image: url("../images/link.svg");
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 4px;
+}

@@ -5,3 +5,9 @@
 .gitignore
 node_modules
 docs
+public
+src
+babel.config.js
+postcss.config.js
+shims-uni.d.ts
+shims-vue.d.ts
