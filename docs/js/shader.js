@@ -663,7 +663,7 @@ window.doShader = function (el) {
             preEls[i].innerHTML = "";
             preEls[i].style.padding = '10px';
             preEls[i].style.fontSize = '13px';
-            preEls[i].style.fontFamily = 'monospace';
+            preEls[i].style.fontFamily = '"monospace"';
             preEls[i].style.fontWeight = '400';
             preEls[i].style.lineHeight = '20px';
 
